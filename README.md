@@ -5,6 +5,7 @@
 The script will be expanded and improved over time, but the focus on simplicity and singularity of function will remain.
 
 *Philosophy = Using the right tool for the right job. Nothing more, nothing less.
+
 *The goal = To implement above philosophy, but with enhanced safety and convenience.
 
 
