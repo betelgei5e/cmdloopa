@@ -1,0 +1,22 @@
+#!/bin/env python3
+
+# cmdloopa - a simple python script to automate a command to run on loop until the user enters Ctrl+C to terminate
+
+import argparse
+import os
+import time
+
+parser = argparse.ArgumentParser(description="command to run")
+parser.add_argument("command", metavar="command", type=str, help='''the command that you would like to loop, enter in quation marks, eg "ls -lah"''')
+args = parser.parse_args()
+
+os.system("clear")
+
+while True:
+    os.system("date")
+    print("\n(looping command)>", args.command,"\n")
+    os.system(args.command)
+    print("\nPress Ctrl+C to terminate loop... \n")
+    time.sleep(2)
+    os.system("clear")
+    time.sleep(0.01)
