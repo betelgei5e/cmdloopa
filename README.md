@@ -13,13 +13,14 @@ The script will be expanded and improved over time, but the focus on simplicity 
 
 ## How to use
 
-1. Specify the command you want to loop in "" eg:
+Specify the command you want to loop in "" eg:
 
 ```
 python3 cmdloopa "ls -lah"
 ```
 
 Press Ctrl+C to terminate the loop.
+
 
 
 To see help and options available, enter:
